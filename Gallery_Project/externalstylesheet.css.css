@@ -1,0 +1,62 @@
+h1{
+	text-align: center;
+	color: #db5966;
+	font-family: cursive;
+	font-size: xx-large;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+body{
+	background-color: black;
+	overflow: auto;
+}
+img{
+	margin: 15%;
+	transition: 2s;
+	width: auto;
+	padding: 2%;
+	float:left;
+}
+h2{
+	color: pink;
+}
+img:hover{
+	width: 300px;
+	background-color: #800040;
+	opacity: 1;
+	height: 200px;
+}
+img:focus{
+			background-color: #ffff00;
+		}
+.style{
+	/*display:inline-block;*/
+	display: block;
+	font-weight:bold;
+	color:#ffffff;
+	background:#0006CC ;
+	width:200px;
+	text-align: center;
+	padding:2px;
+	text-decoration:none ;
+	margin:0 auto;
+	margin-top:10px; 
+}
+.point{
+	/*display:inline-block;*/
+	display: block;
+	font-weight:bold;
+	color:#ffffff;
+	background:green;
+	width:200px;
+	text-align: center;
+	padding:2px;
+	text-decoration:none ;
+	margin:0 auto;
+	margin-top:10px; 
+}
+.jumbotron i{
+	display: block;
+	text-align: center;
+}
